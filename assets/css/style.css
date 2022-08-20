@@ -64,6 +64,11 @@ header,main .first-div,footer {
         margin-left: 48px;
     }
     
+    header .logo:hover{
+        transform: scale(.9);
+        transition: all .5s ease-out 0s;
+    }
+    
     header nav {
         display: none;
         width: 451.46px;
@@ -972,6 +977,11 @@ header,main .first-div,footer {
         header .logo {
             margin-left: 421px;
         }
+
+        header .logo:hover{
+            transform: scale(.9);
+            transition: all .5s ease-out 0s;
+        }
         
         header nav {
             display: none;
@@ -1373,7 +1383,7 @@ header,main .first-div,footer {
         }
         section.popular .articles {
             margin: 0 auto;
-            overflow-y: scroll;
+            /* overflow-y: scroll; */
             height: 600px;
             margin-top: 30px;
             padding-top: 0px;
@@ -1873,6 +1883,11 @@ header .logo {
     margin-left: 21px;
 }
 
+header .logo:hover {
+    transform: scale(.9);
+    transition: all .4s ease-out 0s;
+}
+
 header nav {
     display: block;
     width: 451.46px;
@@ -1949,6 +1964,8 @@ header .buttons ul .buttons-header .fa-phone-alt {
 }
 
 header .buttons ul .buttons-header .fa-phone-alt:hover{
+    transform: scale(.9);
+    transition: all .4s ease-out 0s;
     background-color: #ec583a;
 }
 
